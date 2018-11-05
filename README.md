@@ -10,7 +10,7 @@ Hangfire.Core.Dashboard.Management provides a Management page in the default das
 
  - **Automatic page and menu generation**: Simple attributes on your job classes define management pages. 
  - **Automatic input generation**: Simple attributes on your properties allows for auto generation of input fields. (bool, int, text, DateTime)
- - **Support for IJobCancellationToken and PerformContext **: These job properties are automatically ignored and set null on job creation.
+ - **Support for IJobCancellationToken and PerformContext**: These job properties are automatically ignored and set null on job creation.
  - **Simple Fire-and-Forget**: Directly from your Management dashboard you can fire any Job.
  - **Set a Cron Job**: Define your cron and set it for any Job.
  - **Schedule a Job**: Schedule your job to run in the future. (Currently 5, 10, 15, 30 and 60 min intervals)
